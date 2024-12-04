@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input,
+button {
+    width: 95%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+}
+input[type="color"] {
+    width: 60px;
+    height: 30px;
+    padding: 2px;
+}
